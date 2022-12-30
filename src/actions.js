@@ -13,3 +13,25 @@ export const repairAdded = (var1,va2) => {
 }
 
 */
+
+
+ export const repairAdded = (bicycleInfo) => {
+  return {
+    type: 'repairAdded',
+    payload: bicycleInfo
+  }
+ }
+
+ export const repairRemoved = (id) => {
+  return {
+    type: 'repairRemoved',
+    payload: id
+  }
+ }
+
+ export const repairUpdated = (id) => {
+  return {
+    type: 'repairUpdated',
+    payload: id
+  }
+ }
